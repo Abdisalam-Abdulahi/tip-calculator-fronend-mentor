@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+  </head>
+  <body>
+    <h1>SPLI TTER</h1>
+    <div class="box">
+      <div class="functioningPart">
+        <p class="pill">Bill</p>
+        <input
+          type="number"
+          class="amountInput"
+          id="amountInput"
+          min="0"
+          value="0"
+        />
+        <p class="selection">Select Tip %</p>
+        <div class="percentage1">
+          <div id="five" class="perChild">5%</div>
+          <div id="ten" class="perChild">10%</div>
+          <div id="fifteen" class="perChild">15%</div>
+        </div>
+        <div class="percentage2">
+          <div id="twentyFive" class="perChild">25%</div>
+          <div id="fifty" class="perChild">50%</div>
+          <div class="Custom">
+            <input type="number" placeholder="Custom" id="Custom" min="0" />
+          </div>
+        </div>
+        <p class="nofText">Number of People</p>
+        <input type="number" class="numberOfpeople" min="1" />
+      </div>
+      <div class="resultPart">
+        <div class="boxChild1">
+          <p class="boxChildTxt">
+            Tip Amount <br /><span class="boxChildspan">/ person</span>
+          </p>
+          <p id="boxChildNo1" class="boxChildNo">$0.00</p>
+        </div>
+        <div class="boxChild2">
+          <p class="boxChildTxt">
+            Total <br /><span class="boxChildspan">/ person</span>
+          </p>
+          <p id="boxChildNo2" class="boxChildNo">$0.00</p>
+        </div>
+        <button class="button">Reset</button>
+      </div>
+    </div>
+    <!-- Bill Select Tip % 5% 10% 15% 25% 50% Custom Number of People Tip Amount /
+    person Total / person Reset
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
+</html>

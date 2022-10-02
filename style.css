@@ -1,0 +1,291 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  background-color: hsl(185, 41%, 84%);
+}
+h1 {
+  left: 45%;
+  top: 30%;
+  position: absolute;
+  letter-spacing: 5px;
+  font-size: large;
+}
+.box {
+  width: 550px;
+  height: 300px;
+  border-radius: 12px;
+  background-color: hsl(0, 0%, 100%);
+  left: 34%;
+  top: 40%;
+  position: absolute;
+  display: flex;
+}
+
+.resultPart {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  background-color: hsl(183, 100%, 15%);
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.functioningPart {
+  width: 280px;
+  height: 260px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.pill {
+  padding-left: 20px;
+  color: hsl(180, 1%, 53%);
+}
+.amountInput {
+  background-image: url("images/icon-dollar.svg");
+  width: 35px;
+  height: 26px;
+  border-width: 0;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-color: hsl(187, 18%, 90%);
+  padding-left: 220px;
+  margin-top: 6px;
+  margin-left: 10px;
+}
+.amountInput:focus{
+  outline: none;
+}
+.selection {
+  padding-top: 30px;
+  padding-left: 15px;
+  color: hsl(180, 1%, 53%);
+}
+.percentage1 {
+  display: flex;
+}
+.perChild {
+  height: 24px;
+  width: 70px;
+  border-radius: 10px;
+  background-color: hsl(183, 100%, 15%);
+  margin-left: 5px;
+  color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 12px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.percentage2 {
+  display: flex;
+}
+.Custom {
+  height: 24px;
+  width: 70px;
+  border-radius: 10px;
+  background-color: hsl(187, 18%, 90%);
+  margin-left: 5px;
+  color: rgb(92, 82, 82);
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 12px;
+  margin-left: 5px;
+}
+#Custom {
+  height: 24px;
+  width: 70px;
+  border-radius: 10px;
+  background-color: hsl(187, 18%, 90%);
+  
+}
+#Custom:focus{
+  outline: none;
+}
+.nofText {
+  padding-left: 20px;
+  color: hsl(180, 1%, 53%);
+  margin-top: 12px;
+}
+.numberOfpeople {
+  background-image: url("images/icon-dollar.svg");
+  width: 30px;
+  height: 26px;
+  border-width: 0;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-color: hsl(187, 18%, 90%);
+  padding-left: 220px;
+  margin-top: 6px;
+  margin-left: 10px;
+}
+.numberOfpeople:focus{
+  outline: none;
+}
+.boxChild1 {
+  display: flex;
+
+  margin-top: 20px;
+  justify-content: space-around;
+}
+.boxChildTxt {
+  color: white;
+  font-size: 18px;
+}
+.boxChildspan {
+  color: hsl(180, 1%, 53%);
+  font-size: 15px;
+}
+.boxChildNo {
+  font-size: 26px;
+  color: hsl(172, 67%, 45%);
+}
+.boxChild2 {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+.button{
+  height: 30px;
+  width: 200px;
+  margin-top: 100px;
+  margin-left: 16px;
+  background-color: hsl(184, 14%, 56%);
+  border-style: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+/* .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  } */
